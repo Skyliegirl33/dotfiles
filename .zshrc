@@ -78,12 +78,6 @@ source $ZSH/oh-my-zsh.sh
 #setopt ksh_arrays
 #setopt extended_glob
 
-# Set up arrow to search history upwards
-bindkey '^[[A' up-history
-
-# Set down arrow to search history downwards
-bindkey '^[[B' down-history
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -109,6 +103,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 autoload zmv
+
 alias zcp='zmv -C' zln='zmv -L'
 
 alias dotcfg='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
@@ -116,6 +111,12 @@ alias dotcfg='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 davinci-convert() {
 	ffmpeg -i $1 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le -f mov $2
 }
+
+# Set up arrow to search history upwards
+bindkey '^[[A' up-history
+
+# Set down arrow to search history downwards
+bindkey '^[[B' down-history
 
 # Add $PATH for Homebrew
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
