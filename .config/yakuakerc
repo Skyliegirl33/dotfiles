@@ -1,0 +1,16 @@
+[Appearance]
+Skin=monochrome
+SkinInstalledWithKns=true
+
+[Desktop Entry]
+DefaultProfile=Nitrux.profile
+
+[DownloadDialog Settings]
+Height 1080=494
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+detailViewIconSize=0
