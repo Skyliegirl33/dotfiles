@@ -108,6 +108,8 @@ alias zcp='zmv -C' zln='zmv -L'
 
 alias dotcfg='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+alias pi-ssh='ssh -YC pi@192.168.1.229 x2x -west -to :0.0'
+
 davinci-convert() {
 	ffmpeg -i $1 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le -f mov $2
 }
@@ -117,6 +119,7 @@ bindkey '^[[A' up-history
 
 # Set down arrow to search history downwards
 bindkey '^[[B' down-history
+
 
 # Add $PATH for Homebrew
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
@@ -132,14 +135,3 @@ export PATH="$PATH:$NPM_PACKAGES/bin:$PATH"
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 
-# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
-export COCOS_CONSOLE_ROOT="/home/lucy/cocos2d-x-4.0/tools/cocos2d-console/bin"
-export PATH=$COCOS_CONSOLE_ROOT:$PATH
-
-# Add environment variable COCOS_X_ROOT for cocos2d-x
-export COCOS_X_ROOT="/home/lucy"
-export PATH=$COCOS_X_ROOT:$PATH
-
-# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
-export COCOS_TEMPLATES_ROOT="/home/lucy/cocos2d-x-4.0/templates"
-export PATH=$COCOS_TEMPLATES_ROOT:$PATH

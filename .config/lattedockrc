@@ -16,7 +16,7 @@ pluginWhiteList=services,bookmarks,baloosearch
 outlineWidth=1
 
 [PlasmaTransientsConfig]
-PreloadWeight=68
+PreloadWeight=60
 enableKWinEdges=true
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
