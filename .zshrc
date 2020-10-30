@@ -120,6 +120,8 @@ bindkey '^[[A' up-history
 # Set down arrow to search history downwards
 bindkey '^[[B' down-history
 
+# No thanks
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 # Add $PATH for Homebrew
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"

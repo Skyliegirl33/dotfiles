@@ -1,8 +1,8 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=false
-ColorScheme=Nitrux
-Font=Calling Code,10,-1,5,50,0,0,0,0,0
+ColorScheme=MateriaDark
+Font=Hack,10,-1,5,50,0,0,0,0,0
 UseFontLineChararacters=true
 
 [Cursor Options]
