@@ -110,6 +110,9 @@ alias dotcfg='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias pi-ssh='ssh -YC pi@192.168.1.229 x2x -west -to :0.0'
 
+alias mv='mv -i'
+alias rm='rm -i'
+
 davinci-convert() {
 	ffmpeg -i $1 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le -f mov $2
 }
