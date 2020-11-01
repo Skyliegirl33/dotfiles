@@ -108,6 +108,8 @@ alias zcp='zmv -C' zln='zmv -L'
 
 alias dotcfg='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+alias nixcfg='git --git-dir=$HOME/nixos-cfg/ --work-tree=$HOME'
+
 alias pi-ssh='ssh -YC pi@192.168.1.229 x2x -west -to :0.0'
 
 alias mv='mv -i'
