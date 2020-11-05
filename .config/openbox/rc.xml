@@ -278,7 +278,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>rofi -show run</command>
+        <command>rofi -modi drun,run -show drun -show-icons -font "Noto Sans 10"</command>
       </action>
     </keybind>
     <keybind key="Print">
