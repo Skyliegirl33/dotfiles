@@ -1,0 +1,2 @@
+#!/bin/bash
+maim $1 --format=png /dev/stdout | xclip -selection clipboard -t image/png

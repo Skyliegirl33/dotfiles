@@ -1,0 +1,9 @@
+sleep 1 && /usr/libexec/polkit-gnome-authentication-agent-1 &
+
+nitrogen --restore &
+
+tint2 &
+
+compton &
+
+xinput --set-prop 9 281 1.5
