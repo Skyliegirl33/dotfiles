@@ -1,0 +1,5 @@
+# required by app-admin/conky-1.11.4-r1::desktop-kit[nvidia]
+# required by conky (argument)
+#>=x11-drivers/nvidia-drivers-450.57 static-libs
+
+app-admin/conky curl bundled-toluapp cairo  apcupsd imlib iconv iostats lua-cairo lua-imlib lua-rsvg math moc mpd nano-syntax truetype -nvidia

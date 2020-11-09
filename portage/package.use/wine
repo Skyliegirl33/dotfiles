@@ -1,0 +1,5 @@
+# required by app-emulation/wine-staging-4.10::nokit[sdl]
+# required by app-emulation/wine-staging (argument)
+>=media-libs/libsdl2-2.0.10 haptic
+
+app-emulation/wine-vanilla themes vaapi vkd3d vulkan xinerama truetype netapi opencl png threads

@@ -1,0 +1,9 @@
+sys-kernel/debian-sources binary
+# required by dev-qt/qtgui-5.12.7::qt-kit[xcb]
+# required by dev-util/cmake-3.18.4::core-kit[qt5]
+# required by kde-frameworks/kconfig-5.59.0::kde-kit
+# required by kde-frameworks/kiconthemes-5.59.0::kde-kit
+# required by kde-plasma/polkit-kde-agent-5.16.1::kde-kit
+# required by sys-auth/polkit-0.115-r5::gnome-kit[kde]
+# required by gnome-extra/polkit-gnome-0.105-r1::gnome-kit
+>=x11-libs/libxcb-1.14 xkb

@@ -1,0 +1,4 @@
+# required by gnome-base/gvfs-1.44.1::gnome-kit[samba]
+# required by gnome-base/gvfs (argument)
+>=net-fs/samba-4.11.15 client
+

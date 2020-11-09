@@ -4,6 +4,10 @@ nitrogen --restore &
 
 tint2 &
 
+xinput --set-prop 8 287 1.5
+
+nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
+
 compton &
 
-xinput --set-prop 9 281 1.5
+conky -c $HOME/.conky/conky-simple-master/Simple/Simple.lua

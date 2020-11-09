@@ -1,0 +1,8 @@
+# required by net-misc/nextcloud-client-3.0.3::net-kit
+# required by net-misc/nextcloud-client (argument)
+>=dev-qt/qtwebengine-5.12.7 widgets qml jumbo-build -geolocation -designer -debug -test
+# required by dev-qt/qtwebengine-5.12.7::qt-kit
+>=media-libs/libvpx-1.9.0 svc
+
+
+net-misc/nextcloud-client dolphin
